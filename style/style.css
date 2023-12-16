@@ -14,19 +14,27 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     padding-right: 90px;
-    height: 80px;
+    height: 90px;
 }
 header a {
+    display: inline-block;
     color: #FFFFFF;
     font-weight: 600;
-    padding: 32px;
+    padding: 40px;
     text-decoration: none;
 }
-header a:hover{
+nav a:hover{
+    -webkit-transform: scale(1.2);
     transition: 0.2s;
     
+}
+#backButton{
+    justify-content: right;
+    padding: 15px;
+    position: fixed;
+    top: 85%;
+    right: 2%;
 }
 #inicio{
     display: flex;
