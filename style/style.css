@@ -121,7 +121,17 @@ h1,h2{
     border-left: 1px solid #FF725E;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+    padding: 0px 24px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.duvida.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
+
 }
 footer{
     background-color: rgba(255, 113, 94, 0.253);
